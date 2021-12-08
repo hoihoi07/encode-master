@@ -1,0 +1,52 @@
+{
+    "name": "video-encoder-bot-1",
+    "repository": "https://github.com/Poke-Fan-2009/Video-Encoder-Bot-1",
+    "env": {
+        "API_ID": {
+            "description": "",
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "",
+            "required": "True"
+        },
+        "SUDO_USERS": {
+            "description": "",
+            "required": "True"
+        },
+        "PRESET": {
+            "description": "",
+            "required": "True"
+        },
+        "TUNE": {
+            "description": "",
+            "required": "True"
+        },
+        "AUDIO": {
+            "description": "",
+            "required": "True"
+        },
+        "UPLOAD_AS_DOC": {
+            "description": "",
+            "required": "True"
+        },
+        "DOWNLOAD_DIR": {
+            "description": "",
+            "required": "True"
+        },
+        "ENCODE_DIR": {
+            "description": "",
+            "required": "True"
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
