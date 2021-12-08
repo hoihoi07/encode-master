@@ -1,1 +1,1 @@
-worker: python3 -m VideoEncoder
+worker: bash run.sh
