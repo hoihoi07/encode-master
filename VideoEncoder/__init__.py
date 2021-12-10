@@ -62,10 +62,7 @@ SOURCE_MESSAGE = '''
 
 data = []
 
-PROGRESS = """
-• {0} of {1}
-• Speed: {2}
-• ETA: {3}
+
 """
 
 
