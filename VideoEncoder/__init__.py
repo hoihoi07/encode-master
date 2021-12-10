@@ -62,10 +62,18 @@ SOURCE_MESSAGE = '''
 
 data = []
 
+PROGRESS = """
+⏳ **Percentage:** `{0}%`
 
+✅ **Done:** `{1}`
+
+💠 **Total:** `{2}`
+
+📶 **Speed:** `{3}/s`
+
+🕰 **ETA:** `{4}`
 """
-
-
+"""
 if not os.path.isdir(download_dir):
     os.makedirs(download_dir)
 
