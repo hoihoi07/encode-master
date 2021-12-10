@@ -73,7 +73,7 @@ PROGRESS = """
 
 🕰 **ETA:** `{4}`
 """
-"""
+
 if not os.path.isdir(download_dir):
     os.makedirs(download_dir)
 
@@ -106,4 +106,4 @@ app = Client(
     api_hash=api_hash,
     plugins={'root': os.path.join(__package__, 'plugins')},
     parse_mode="html",
-    sleep_threshold=30)
+    sleep_threshold=12)
