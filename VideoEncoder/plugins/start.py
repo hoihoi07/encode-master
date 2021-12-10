@@ -17,27 +17,9 @@
 from pyrogram import Client, filters
 from pyrogram.errors.exceptions.bad_request_400 import MessageIdInvalid
 
-from ..utils.utils import check_user, start, output
+from ..utils.utils import check_user, output
 
 
-@Client.on_message(filters.command('start'))
-async def start_message(app, message):
-    check = await check_user(message)
-    if check is None:
-        return
-    text = "Hey! I'm <a href='https://telegra.ph/file/11379aba315ba245ebc7b.jpg'>VideoEncoder</a>. I can encode telegram files in x264.\n\nPress /help for my commands :)"
-
-    await message.reply(text=text, reply_markup=start)
-
-
-@Client.on_message(filters.command('help'))
-async def help_message(app, message):
-    check = await check_user(message)
-    if check is None:
-        return
-    text = '<b>Commands:</b>\x1f• AutoDetect Telegram Files.\x1f• /help - Commands List.\x1f• /start - Introduction.\x1f• /sthumb - Save Thumb\x1f• /dthumb - Clear Thumb.\x1f• /logs - check logs.'
-
-    await message.reply(text=text, reply_markup=output)
 
 
 @Client.on_message(filters.command('logs'))
