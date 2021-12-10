@@ -30,7 +30,6 @@ async def savethumbnail(client, message):
     check = await check_user(message)
     if check is None:
         return
-    reply = message.reply_to_message
     document = message.document
     photo = message.photo
     thumbset = False
