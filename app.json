@@ -35,7 +35,7 @@
             "required": "True"
         },
         "DOWNLOAD_DIR": {
-            "description": "",
+            "description": "VideoEncoder/utils/downloads/",
             "required": "True"
         },
         "ENCODE_DIR": {
