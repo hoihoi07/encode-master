@@ -35,20 +35,20 @@ async def on_task_complete():
 
 async def handle_task(message: Message):
     try:
-        msg = await message.reply_text("<code>Downloading video...</code>")
+        msg = await message.reply_text("<code>Downloading Video...</code>")
         c_time = time.time()
         filepath = await message.download(
             file_name=download_dir,
             progress=progress_for_pyrogram,
             progress_args=("Downloading...", msg, c_time))
-        await msg.edit_text('<code>Encoding...</code>')
+        await msg.edit_text('<code>Your File Is Encoding Plz Wait...</code>')
         new_file = await encode(filepath)
         if new_file:
             await msg.edit_text("<code>Video Encoded, getting metadata...</code>")
             await handle_upload(new_file, message, msg)
             await msg.edit_text('Video Encoded Successfully!')
         else:
-            await message.reply_text("<code>Something wents wrong while encoding your file.</code>")
+            await message.reply_text("<code>Something Went Wrong While Encoding Your File.</code>")
             os.remove(filepath)
     except MessageNotModified:
         pass
@@ -78,7 +78,7 @@ async def handle_upload(new_file, message, msg):
             reply_markup=output,
             parse_mode=None,
             progress=progress_for_pyrogram,
-            progress_args=("Uploading ...", msg, c_time)
+            progress_args=("Uploading To Telegram...", msg, c_time)
         )
     else:
         height = 720
