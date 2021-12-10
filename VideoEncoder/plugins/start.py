@@ -17,16 +17,13 @@
 from pyrogram import Client, filters
 from pyrogram.errors.exceptions.bad_request_400 import MessageIdInvalid
 
-from ..utils.utils import check_user, output
+from ..utils.utils import output
 
 
 
 
 @Client.on_message(filters.command('logs'))
 async def logs(app, message):
-    check = await check_user(message)
-    if check is None:
-        return
     file = 'VideoEncoder/utils/logs.txt'
     await message.reply_document(
         file,
