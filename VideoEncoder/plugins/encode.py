@@ -39,9 +39,6 @@ video_mimetype = [
 
 @Client.on_message(filters.incoming & (filters.video | filters.document))
 async def encode_video(app, message):
-    check = await check_user(message)
-    if check is None:
-        return
     if message.document and message.document.mime_type not in video_mimetype:
         return
     await message.reply_text("<code>Added to queue...</code>")
