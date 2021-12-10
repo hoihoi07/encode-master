@@ -32,7 +32,7 @@ async def savethumbnail(client, message):
         return
     document = message.document
     photo = message.photo
-    thumbset = False
+    thumbset = True
     user_id = message.from_user.id
     thumbnail_path = os.path.join(str(user_id), 'thumbnail.jpg')
     os.makedirs(str(user_id), exist_ok=True)
