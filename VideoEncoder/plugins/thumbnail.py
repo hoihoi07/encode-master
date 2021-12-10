@@ -22,7 +22,7 @@ import tempfile
 from pyrogram import Client, filters
 
 from .. import download_dir
-from ..utils.utils import check_user, convert_to_jpg, get_file_mimetype
+from ..utils.utils import convert_to_jpg, get_file_mimetype
 
 
 @Client.on_message(filters.command('sthumb'))
