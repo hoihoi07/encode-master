@@ -32,7 +32,7 @@ async def savethumbnail(client, message):
         return
     else:
         pass
-    reply = message.from_user.id
+     = message.from_user.id
     document = message.document
     photo = message.photo
     thumbset = False
