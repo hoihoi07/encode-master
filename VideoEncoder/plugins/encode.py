@@ -18,7 +18,7 @@ from pyrogram import Client, filters
 
 from .. import data
 from ..utils.tasks import handle_task
-from ..utils.utils import check_user
+
 
 video_mimetype = [
     "video/x-flv",
