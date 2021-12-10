@@ -19,19 +19,19 @@
             "required": "True"
         },
         "PRESET": {
-            "description": "",
+            "description": "sf",
             "required": "True"
         },
         "TUNE": {
-            "description": "",
+            "description": "film",
             "required": "True"
         },
         "AUDIO": {
-            "description": "",
+            "description": "AAC",
             "required": "True"
         },
         "UPLOAD_AS_DOC": {
-            "description": "",
+            "description": "0",
             "required": "True"
         },
         "DOWNLOAD_DIR": {
