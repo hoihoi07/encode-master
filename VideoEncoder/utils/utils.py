@@ -34,21 +34,6 @@ start = InlineKeyboardMarkup([
 ])
 
 
-async def check_user(message):
-    try:
-        user_id = message.from_user.id
-    except AttributeError:
-        user_id = message.chat.id
-    if user_id in sudo_users:
-        return 'Sudo'
-    elif user_id == 885190545:
-        return 'Dev'
-    else:
-        text = 'Oops! Not a authorised user, host a video encoder bot for yourself.'
-        await message.reply(text=text, reply_markup=start)
-        return None
-
-
 async def get_file_mimetype(filename):
     mimetype = mimetypes.guess_type(filename)[0]
     if not mimetype:
