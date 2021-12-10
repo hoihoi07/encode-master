@@ -19,7 +19,7 @@ import mimetypes
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from .. import sudo_users
+
 
 output = InlineKeyboardMarkup([
     [InlineKeyboardButton("Developer", url="https://github.com/WeebTime/"),
