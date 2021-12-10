@@ -39,7 +39,7 @@
             "required": "True"
         },
         "ENCODE_DIR": {
-            "description": "",
+            "description": "VideoEncoder/utils/encodes/",
             "required": "True"
         }
   },
