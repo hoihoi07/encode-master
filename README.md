@@ -36,7 +36,7 @@ bash run.sh
 ### Credits
 - [ShannonScott](https://gist.github.com/ShannonScott) for [transcode_h265.py](https://gist.github.com/ShannonScott/6d807fc59bfa0356eee64fad66f9d9a8)
 - [viperadnan-git](https://github.com/viperadnan-git/video-encoder-bot) for queue etc.
-
+- [weebtime] For His Video Encoder Bot For Me Adding It on Heroku
 ### Copyright & License
 - Copyright &copy; 2021 &mdash; [WeebTime](https://github.com/WeebTime)
 - Licensed under the terms of the [GNU AFFERO GENERAL PUBLIC LICENSE](./LICENSE)
