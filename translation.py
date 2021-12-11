@@ -8,7 +8,7 @@ class Translation(object):
 
 <b>I am Telegram Media Encoder Bot</b>
 
-<b>Just Send Me A Media To Get Started/b>
+<b>Just Send Me A Media To Get Started</b>
 
 <b>Use Help Command to Know How to Use me</b>
 
