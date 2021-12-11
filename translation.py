@@ -20,23 +20,21 @@ Recommended
 ➠ Just Send Me Media To Get Started
 
 Delete Thumbnail
-➠ Send /dthumb to Delete Thumbnail
+➠ Send /dthumb To Delete Thumbnail
 
 Set Thumbnail
-➠ Reply With Photo /sthumb to Save Thumbnail
+➠ Reply To Photo With /sthumb To Save Thumbnail
 
 Made With 💕 By @Tellybots_4u
 """
     ABOUT_TEXT = """
- **🤖 Bot :** The-Encoder-Bot\n
- **👲 Developer :** [Tellybots_4u](https://telegram.me/tellybots_4u)\n
- **👥 Channel :** [Tellybots_4u](https://telegram.me/tellybots_4u)\n
- **❄️ Credits :** Everyone in this journey\n
- **🍴 Source :** [Click here](https://t.me/tellybots_digital)\n
- **📝 Language :** [Python3](https://python.org)\n
- **📚 Library :** [Pyrogram v1.2.0](https://pyrogram.org)\n
- **🌟 Server :** [Heroku](https://heroku.com)\n
-"""
+🤖 My Name : Media-Encoder-Bot\n
+🚦 Version : <a href='https://telegram.me/tellybots_4u'>2.0</a>\n
+💫 Source Code : <a href='https://t.me/tellybots_digital'>Click Here</a>\n
+🗃️ Library : <a href='https://pyrogram.org'>Click Here</a>\n
+👲 Developer : <a href='https://telegram.me/tellybots_4u'>TellyBots_4u</a>\n
+📦 Last Updated : <a href='https://telegram.me/tellybots_4u'>[ 15-Dec-21 ] 15:00 PM</a>"""
+
     START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('🤖 Update Channel', url='https://telegram.me/tellybots_4u'),
