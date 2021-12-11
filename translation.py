@@ -6,9 +6,9 @@ class Translation(object):
     START_TEXT = """
 <b>Hey</b><b> {}</b> 
 
-<b>I am Telegram File or Media Encoder Bot</b>
+<b>I am Telegram Media Encoder Bot</b>
 
-<b>I can Encode Any Video Or File in Negligible Quality</b>
+<b>Just Send Me A Media To Get Started/b>
 
 <b>Use Help Command to Know How to Use me</b>
 
