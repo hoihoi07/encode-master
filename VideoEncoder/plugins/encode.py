@@ -39,4 +39,10 @@ video_mimetype = [
 
 @Client.on_message(filters.incoming & (filters.video | filters.document))
 async def encode_video(app, message):
-await add_user_to_database(client, message)
+    await add_user_to_database(app, message)
+    if message.document and message.document.mime_type not in video_mimetype:
+        return
+    await message.reply_text("<code>Added to queue...</code>")
+    data.append(message)
+    if len(data) == 1:
+        await handle_task(message)
