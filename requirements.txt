@@ -2,4 +2,11 @@ pyrogram
 TgCrypto
 python-dotenv
 hachoir
+aiofiles
+motor
+pyromod
+dnspython
+Pillow
+mutagen
+psutil
 ffmpeg-python
