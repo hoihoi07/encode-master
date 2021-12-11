@@ -25,6 +25,9 @@ Delete Thumbnail
 Set Thumbnail
 ➠ Reply To Photo With /sthumb To Save Thumbnail
 
+Settings
+➠ Use /settings Command To Check Settings
+
 Made With 💕 By @Tellybots_4u
 """
     ABOUT_TEXT = """
@@ -55,6 +58,11 @@ Made With 💕 By @Tellybots_4u
         [[
         InlineKeyboardButton('🏡 Home', callback_data='home'),
         InlineKeyboardButton('❔ Help', callback_data='help'),
+        InlineKeyboardButton('⛔ Close', callback_data='close')
+        ]]
+    )
+    BUTTONS = InlineKeyboardMarkup(
+        [[
         InlineKeyboardButton('⛔ Close', callback_data='close')
         ]]
     )
