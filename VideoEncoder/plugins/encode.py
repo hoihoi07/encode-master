@@ -35,10 +35,9 @@ video_mimetype = [
     "video/quicktime",
     "video/mpeg"
 ]
-
-
 @Client.on_message(filters.incoming & (filters.video | filters.document))
 async def encode_video(app, message):
+    await add_user_to_database(bot, update)
     if message.document:
         if not message.document.mime_type in video_mimetype:
             return
