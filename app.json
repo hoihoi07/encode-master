@@ -33,7 +33,7 @@
             "required": "True"
         },
         "AUDIO": {
-            "description": "AAC",
+            "description": "opus",
             "required": "True"
         },
         "UPLOAD_AS_DOC": {
