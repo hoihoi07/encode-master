@@ -3,37 +3,37 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-<b>Hey</b><b> {} </b>
+Hey {}
 
-<b>I am Telegram Video Encoder Bot</b>
+I am Telegram Video Encoder Bot
 
-<b>I can Encode Any File or Video</b>
+I can Encode Any File or Video
 
-<b>Use Help Command to Know How to Use me</b>
+Use Help Command to Know How to Use me
 
-<b>Made With 💕 By</b><b> @Tellybots_4u</b>
+Made With 💕 By @Tellybots_4u
 """
     HELP_TEXT = """
-<b>Media or File</b>
-➠ <b>Just Send telegram file or media to get started.</b>
+Media or File
+➠ Just Send telegram file or media to get started.
 
-<b>Set Thumbnail</b>
-➠ <b>Reply With /sthumb With Photo To Save Thumbnail.</b>
+Set Thumbnail</b>
+➠ Reply With /sthumb With Photo To Save Thumbnail.
 
-<b>Deleting Thumbnail</b>
-➠ Send /dthumb to delete thumbnail.</b>
+Deleting Thumbnail
+➠ Send /dthumb to delete thumbnail.
 
-<b>Made With 💕 By</b><b> @Tellybots_4u</b>
+Made With 💕 By @Tellybots_4u
 """
     ABOUT_TEXT = """
- **🤖 <b>Bot :** Video-Encoder</b>\n
- **👲 <b>Developer :** [Tellybots_4u](https://telegram.me/tellybots_4u)</b>\n
- **👥 <b>Channel :** [Tellybots_4u](https://telegram.me/tellybots_4u)</b>\n
- **❄️ <b>Credits :** Everyone in this journey</b>\n
- **🍴 <b>Source :** [Click here](https://t.me/tellybots_digital)</b>\n
- **📝 <b>Language :** [Python3](https://python.org)</b>\n
- **📚 <b>Library :** [Pyrogram v1.2.0](https://pyrogram.org)</b>\n
- **🌟 <b>Server :** [Heroku](https://heroku.com)</b>\n
+ **🤖 Bot :** Video-Encoder\n
+ **👲 Developer :** [Tellybots_4u](https://telegram.me/tellybots_4u)\n
+ **👥 Channel :** [Tellybots_4u](https://telegram.me/tellybots_4u)\n
+ **❄️ Credits :** Everyone in this journey\n
+ **🍴 Source :** [Click here](https://t.me/tellybots_digital)\n
+ **📝 Language :** [Python3](https://python.org)\n
+ **📚 Library :** [Pyrogram v1.2.0](https://pyrogram.org)\n
+ **🌟 Server :** [Heroku](https://heroku.com)\n
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
