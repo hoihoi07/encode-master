@@ -14,9 +14,11 @@ Add values in environment variables or add them in [config.env.example](/VideoEn
 - `SUDO_USERS` - Chat identifier of the sudo user. For multiple users use space as seperator.
 
 **Encode Settings**
-- `PRESET` - [https://telegra.ph/Encode-Settings-Guide-11-22](https://telegra.ph/Encode-Settings-Guide-11-22)
-- `TUNE` - [https://telegra.ph/Encode-Settings-Guide-11-22](https://telegra.ph/Encode-Settings-Guide-11-22)
-- `AUDIO` - [https://telegra.ph/Encode-Settings-Guide-11-22](https://telegra.ph/Encode-Settings-Guide-11-22)
+- `RESOLUTION` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
+- `PRESET` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
+- `TUNE` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
+- `AUDIO` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
+- `CRF` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
 
 **Optional**
 - `DOC_THUMB` - (Optional) Thumbnail for document
@@ -35,6 +37,7 @@ bash run.sh
 ```
 
 ### Credits
+
 - [ShannonScott](https://gist.github.com/ShannonScott) for [transcode_h265.py](https://gist.github.com/ShannonScott/6d807fc59bfa0356eee64fad66f9d9a8)
 - [viperadnan-git](https://github.com/viperadnan-git/video-encoder-bot) for queue etc.
 - [weebtime](https://github.com/WeebTime) For His Video Encoder Bot For Me Adding It on Heroku
