@@ -110,4 +110,4 @@ app = Client(
     api_hash=api_hash,
     plugins={'root': os.path.join(__package__, 'plugins')},
     parse_mode="html",
-    sleep_threshold=30)
+    sleep_threshold=10)
