@@ -41,9 +41,9 @@ bash run.sh
 ### Copyright & License
 - Copyright &copy; 2021 &mdash; [WeebTime](https://github.com/WeebTime)
 - Licensed under the terms of the [GNU AFFERO GENERAL PUBLIC LICENSE](./LICENSE)
-#### Deploy
 
-#### Easiest Deploy on Heroku
+
+### Deploy on Heroku
 
 <p align="">
     <a href="https://heroku.com/deploy?template=https://github.com/Tellybots/The-Encoder-Bot">
