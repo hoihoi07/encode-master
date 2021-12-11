@@ -1,6 +1,6 @@
 {
-    "name": "video-encoder-bot-1",
-    "repository": "https://github.com/Poke-Fan-2009/Video-Encoder-Bot-1",
+    "name": "The-Video-Encoder-Bot",
+    "repository": "https://github.com/tellybots/The-Encoder-Bot",
     "env": {
         "API_ID": {
             "description": "",
