@@ -7,7 +7,7 @@ class Translation(object):
     START_TEXT = """
 Hey {} 
 
-I am Telegram Most Powerful Video Encoder Bot
+I am Telegram Most Powerful Media Encoder Bot
 
 I can Encode Any Video or File in Negligible Quality
 
