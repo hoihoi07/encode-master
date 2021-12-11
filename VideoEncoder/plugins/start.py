@@ -14,18 +14,40 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from pyrogram import Client, filters
-from pyrogram.errors.exceptions.bad_request_400 import MessageIdInvalid
 
+
+from pyrogram import Client, filters
+
+from .. import (audio, crf, doc_thumb, preset, resolution, sudo_users, tune,
+                upload_doc)
 from ..utils.utils import output
 
 
 
+@Client.on_message(filters.command('vset'))
+async def vset(app, message):
+    check = await check_user(message)
+    if check is None:
+        return
+    text = f'''<b>Encode Settings</b>
+Tune: <code>{tune}</code> | <code>Preset: {preset}</code>
+Audio: <code>{audio} | <code>CRF: {crf}</code>
+Resolution: <code>{resolution}</code>
+
+<b>Upload Settings<b>
+Upload Mode: <code>{'Document' if (upload_doc) else 'Video' }</code>
+Doc thumb: <code>{'True' if (doc_thumb) else 'False'}</code>
+
+<b>Sudo Users</b>
+<code>{sudo_users}</code>
+'''
+    await message.reply(text=text, reply_markup=start)
+
 
 @Client.on_message(filters.command('logs'))
 async def logs(app, message):
+    check = await check_user(message)
+    if check is None:
+        return
     file = 'VideoEncoder/utils/logs.txt'
-    await message.reply_document(
-        file,
-        caption='#Logs'
-    )
+    await message.reply_document(file, caption='#Logs')
