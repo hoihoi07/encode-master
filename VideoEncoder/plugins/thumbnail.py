@@ -18,7 +18,7 @@
 
 import os
 import tempfile
-
+from database.add import add_user_to_database
 from pyrogram import Client, filters
 
 from ..utils.utils import convert_to_jpg, get_file_mimetype
