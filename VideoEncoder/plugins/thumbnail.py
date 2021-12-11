@@ -27,7 +27,7 @@ from ..utils.utils import convert_to_jpg, get_file_mimetype
 
 @Client.on_message(filters.command('sthumb'))
 async def savethumbnail(client, message):
-    reply= message.from_user.id
+    reply = message.reply_to_message
     document = message.document
     photo = message.photo
     thumbset = False
