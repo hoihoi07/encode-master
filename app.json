@@ -47,17 +47,16 @@
         "ENCODE_DIR": {
             "description": "VideoEncoder/utils/encodes/",
             "required": "True"
+        },
+        "RESOLUTION": {
+            "description": "",
+            "required": "True"
+        },
+        "PRESET": {
+            "description": "",
+            "required": "True"
+        },
+        "CRF": {
+            "description": "",
+            "required": "True"
         }
-  },
-   "addons": [{
-    "plan": "heroku-postgresql"
-  }],
-   "buildpacks": [
-    {
-      "url": "heroku/python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    }
-  ]
-}
