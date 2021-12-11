@@ -1,5 +1,6 @@
-# Video-Encoder-Bot
- a telegram bot for compressing/encoding videos in h264 format.
+### The_Encoder_Bot
+[![Readme](https://github-readme-stats.vercel.app/api/pin/?username=tellybots&repo=The-Encoder-Bot&theme=cobalt)](h&bg_color=24378)
+
 
 ### Configuration
 Add values in environment variables or add them in [config.env.example](/VideoEncoder/config.env.example) and rename file to `config.env`.
@@ -40,3 +41,11 @@ bash run.sh
 ### Copyright & License
 - Copyright &copy; 2021 &mdash; [WeebTime](https://github.com/WeebTime)
 - Licensed under the terms of the [GNU AFFERO GENERAL PUBLIC LICENSE](./LICENSE)
+#### Deploy
+
+#### Easiest Deploy on Heroku
+
+<p align="">
+    <a href="https://heroku.com/deploy?template=https://github.com/Tellybots/The-Encoder-Bot">
+    <img src="https://github.com/nikhileashy/justfor_testing/blob/main/herokudeploy-01-cropped.svg" alt="herokudeploy-01" border="0" height="100" width="240"></a>
+</p>
