@@ -1,8 +1,8 @@
-### The_Encoder_Bot
+#### The_Encoder_Bot
 [![Readme](https://github-readme-stats.vercel.app/api/pin/?username=tellybots&repo=The-Encoder-Bot&theme=cobalt)](h&bg_color=24378)
 
 
-### Configuration
+#### Configuration
 Add values in environment variables or add them in [config.env.example](/VideoEncoder/config.env.example) and rename file to `config.env`.
 
 **Basics**
@@ -26,29 +26,29 @@ Add values in environment variables or add them in [config.env.example](/VideoEn
 - `DOWNLOAD_DIR` - (Optional) Temporary download directory to keep downloaded files.
 - `ENCODE_DIR` - (Optional) Temporary encode directory to keep encoded files.
 
-### Configuring Encoding Format
+#### Configuring Encoding Format
 To change the ffmpeg profile edit them in [ffmpeg.py](/VideoEncoder/utils/ffmpeg.py)
 
-### Deployment
+#### Deployment
 With python3.7 or later.
 ```
 pip3 install --no-cache-dir -r requirements.txt
 bash run.sh
 ```
 
-### Credits
+#### Credits
 
 - [ShannonScott](https://gist.github.com/ShannonScott) for [transcode_h265.py](https://gist.github.com/ShannonScott/6d807fc59bfa0356eee64fad66f9d9a8)
 - [viperadnan-git](https://github.com/viperadnan-git/video-encoder-bot) for queue etc.
 - [weebtime](https://github.com/WeebTime) For His Video Encoder Bot For Me Adding It on Heroku
 - [AbirHasan2005](https://github.com/AbirHasan2005) For His Database
 
-### Copyright & License
+#### Copyright & License
 - Copyright &copy; 2021 &mdash; [WeebTime](https://github.com/WeebTime)
 - Licensed under the terms of the [GNU AFFERO GENERAL PUBLIC LICENSE](./LICENSE)
 
 
-### Deploy on Heroku
+#### Deploy on Heroku
 
 <p align="">
     <a href="https://heroku.com/deploy?template=https://github.com/Tellybots/The-Encoder-Bot">
@@ -56,10 +56,10 @@ bash run.sh
 </p>
 
 
-### Support 
+#### Support 
 <a href="https://t.me/Tellybots_support"><img src="https://img.shields.io/badge/Support_Group-2cb6e0?style=for-the-badge&logo=telegram&logoColor=white"></a> <a href="https://t.me/tellybots_4u"><img src="https://img.shields.io/badge/Updates_Channel-2cb6e0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 
-### Database
+#### Database
 
 <p align="left">
   <a href="https://github.com/pyrogram/pyrogram">
