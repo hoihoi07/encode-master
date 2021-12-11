@@ -15,7 +15,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-
+from database.add import add_user_to_database
 from pyrogram import Client, filters
 
 from .. import (audio, crf, doc_thumb, preset, resolution, sudo_users, tune,
