@@ -1,3 +1,4 @@
+
 # VideoEncoder - a telegram bot for compressing/encoding videos in h264 format.
 # Copyright (c) 2021 WeebTime/VideoEncoder
 #
@@ -19,11 +20,12 @@ from os import supports_dir_fd
 
 from pyrogram import idle
 
-from . import app, sudo_users
+from . import app
 
 
 async def main():
     await app.start()
+    print(f'[Started]: @{{(await app.get_me()).username}}')
     await idle()
     await app.stop()
 
