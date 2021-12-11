@@ -17,6 +17,10 @@
         "SUDO_USERS": {
             "description": "",
             "required": "True"
+
+        },
+        "MONGODB_URI": {
+            "description": "MongoDB Database URI for Saving UserID for Broadcast. Tutorial: https://www.youtube.com/watch?v=aXlF80Cn7iU"
         },
         "PRESET": {
             "description": "sf",
@@ -55,4 +59,3 @@
     }
   ]
 }
-
