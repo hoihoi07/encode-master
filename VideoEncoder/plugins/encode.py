@@ -15,7 +15,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from pyrogram import Client, filters
-
+from database.add import add_user_to_database
 from .. import data
 from ..utils.tasks import handle_task
 
