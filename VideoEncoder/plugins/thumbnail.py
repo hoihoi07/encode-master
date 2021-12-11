@@ -21,13 +21,12 @@ import tempfile
 
 from pyrogram import Client, filters
 
-from ..utils.utils import check_user, convert_to_jpg, get_file_mimetype
+from ..utils.utils import convert_to_jpg, get_file_mimetype
 
 
 @Client.on_message(filters.command('sthumb'))
 async def savethumbnail(client, message):
-    
-
+    await add_user_to_database(bot, update)
     reply = message.reply_to_message
     document = message.document
     photo = message.photo
@@ -63,8 +62,7 @@ async def savethumbnail(client, message):
 
 @Client.on_message(filters.command('dthumb'))
 async def rmthumbnail(client, message):
-    
-
+    await add_user_to_database(bot, update)
     for path in ('thumbnail'):
         path = os.path.join(str(message.from_user.id), f'{path}.jpg')
         if os.path.isfile(path):
