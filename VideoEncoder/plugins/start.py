@@ -17,7 +17,7 @@
 
 from database.add import add_user_to_database
 from pyrogram import Client, filters
-
+from translation import Translation
 from .. import (audio, crf, doc_thumb, preset, resolution, sudo_users, tune,
                 upload_doc)
 from ..utils.utils import output
@@ -35,7 +35,7 @@ Upload Mode: <code>{'Document' if (upload_doc) else 'Video' }</code>
 Doc thumb: <code>{'True' if (doc_thumb) else 'False'}</code>
 
 '''
-    await message.reply(text=text, reply_markup=start)
+    await message.reply(text=text, reply_markup=Translation.ABOUT_BUTTONS)
 
 @Client.on_message(filters.command('logs'))
 async def logs(app, message):
