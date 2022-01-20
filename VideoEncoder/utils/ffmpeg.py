@@ -32,7 +32,20 @@ from .. import resolution as r
 from .. import tune as t
 
 
+def get_codec(filepath, channel='v:0'):
+    output = check_output(['ffprobe', '-v', 'error', '-select_streams', channel,
+                            '-show_entries', 'stream=codec_name,codec_tag_string', '-of', 
+                            'default=nokey=1:noprint_wrappers=1', filepath])
+    return output.decode('utf-8').split()
 
+def encode(filepath):
+    basefilepath, extension = os.path.splitext(filepath)
+    output_filepath = basefilepath + '.HEVC' + '.mp4'
+    assert(output_filepath != filepath)
+    if os.path.isfile(output_filepath):
+        print('Skipping "{}": file already exists'.format(output_filepath))
+        return None
+    print(filepath)
     # Codec and Bits
     codec = '-c:v libx264 -pix_fmt yuv420p'
 
