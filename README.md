@@ -6,7 +6,7 @@
 <p align="center" > <img alt="GitHub forks" src="https://img.shields.io/github/forks/Tellybots/The-Encoder-Bot?label=%F0%9F%8D%B4Forks&logoColor=blue&style=social">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Tellybots/The-Encoder-Bot?label=%E2%AD%90%EF%B8%8FStars&logoColor=blue&style=social"> </p>
 
-
+### Don't Fork It Right Now Under Maintenance
 #### Configuration
 Add values in environment variables or add them in [config.env.example](/VideoEncoder/config.env.example) and rename file to `config.env`.
 
